@@ -45,7 +45,7 @@ export default class Login extends React.Component {
           </form>
 
           {/*The to prop takes you to the place you wish to go*/}
-          <Link to="/signup">Have an account?</Link>
+          <Link to="/signup">Need an account?</Link>
         </div>
       </div>
     );
