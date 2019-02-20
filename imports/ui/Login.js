@@ -33,7 +33,7 @@ export default class Login extends React.Component {
     return (
       <div className="boxed-view">
         <div className="boxed-view__box">
-          <h1>Short Lnk Login</h1>
+          <h1>Short Lnk</h1>
           {/*Using the terrinary opperator if there is an error the system returns whatever is after the question mark below*/}
           {/*If there was no error. Undefined is returned and nothing happens*/}
           {this.state.error ? <p>{this.state.error}</p> : undefined}
